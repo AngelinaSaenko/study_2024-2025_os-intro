@@ -1,0 +1,196 @@
+<h1 id="информация">Информация</h1>
+<h2 id="докладчик">Докладчик</h2>
+<div class="columns" data-align="center">
+<div class="column" style="width:70%;">
+<ul>
+<li>Саенко Ангелина Андреевна</li>
+<li>Студент</li>
+<li>Российский университет дружбы народов</li>
+</ul>
+</div><div class="column" style="width:30%;">
+
+</div>
+</div>
+<h1 id="вводная-часть">Вводная часть</h1>
+<h1 id="актуальность">Актуальность</h1>
+<p>Изучение систем контроля версий (VCS) и инструментов, таких как Git,
+является важным для эффективной разработки программного обеспечения,
+управления проектами и совместной работы.</p>
+<h1 id="объект-и-предмет-исследования">Объект и предмет
+исследования</h1>
+<p>Системы контроля версий, в частности Git. Предмет исследования:
+Настройка и использование Git для управления версиями проектов. # Цели и
+задачи</p>
+<p>Цель: Освоить навыки работы с Git, включая настройку, создание
+ключей, управление репозиториями и выполнение базовых операций.</p>
+<p>Задачи: 1. Установить и настроить Git. 2. Создать SSH и PGP ключи. 3.
+Настроить подписи Git. 4. Зарегистрироваться на GitHub. 5. Создать и
+настроить локальный репозиторий.</p>
+<h1 id="материалы-и-методы">Материалы и методы</h1>
+<p>Использование командной строки, инструментов Git и GitHub, создание
+ключей SSH и PGP, настройка репозиториев и выполнение команд Git (clone,
+commit, push и др.).</p>
+<h1 id="создание-презентации">Создание презентации</h1>
+<h1
+id="для-начала-установим-git.-в-моём-случае-он-уже-установлен-рис.--fig001.">Для
+начала установим git. В моём случае он уже установлен (рис. <span
+class="citation" data-cites="fig:001">[-@fig:001]</span>).</h1>
+<figure id="fig:001">
+<img src="image/1.png" style="width:70.0%" alt="Установка git." />
+<figcaption aria-hidden="true">Установка git.</figcaption>
+</figure>
+<h1 id="теперь-установим-gh.">Теперь установим gh.</h1>
+<figure id="fig:002">
+<img src="image/2.png" style="width:70.0%" alt="Установка gh." />
+<figcaption aria-hidden="true">Установка gh.</figcaption>
+</figure>
+<h1
+id="далее-зададим-имя-для-владельца-репозитория.-в-данном-случае-это-моё-имя.">Далее,
+зададим имя для владельца репозитория. В данном случае это моё имя.</h1>
+<figure id="fig:003">
+<img src="image/3.png" style="width:70.0%" alt="Указание имени" />
+<figcaption aria-hidden="true">Указание имени</figcaption>
+</figure>
+<h1
+id="теперь-зададим-почту.-я-задала-почту-на-которую-у-меня-зарегистрирован-аккаунт-на-github.">Теперь
+зададим почту. Я задала почту, на которую у меня зарегистрирован аккаунт
+на GitHub.</h1>
+<figure id="fig:004">
+<img src="image/4.1.png" style="width:70.0%" alt="Указание почты." />
+<figcaption aria-hidden="true">Указание почты.</figcaption>
+</figure>
+<h1 id="настроим-кодировку-utf8-в-выводе-сообщений-git.">Настроим
+кодировку utf8 в выводе сообщений git.</h1>
+<figure id="fig:005">
+<img src="image/4.2.png" style="width:70.0%"
+alt="Настройка кодировки utf8." />
+<figcaption aria-hidden="true">Настройка кодировки utf8.</figcaption>
+</figure>
+<h1
+id="зададим-имя-начальной-ветки-настроим-параметры-autocrlf-и-safecrlf">Зададим
+имя начальной ветки, настроим параметры autocrlf и safecrlf</h1>
+<figure id="fig:006">
+<img src="image/5.png" style="width:70.0%" alt="Настройка git" />
+<figcaption aria-hidden="true">Настройка git</figcaption>
+</figure>
+<h1 id="создадим-ключ-rsa-размером-4096-бит.">Создадим ключ RSA размером
+4096 бит.</h1>
+<figure id="fig:007">
+<img src="image/6.png" style="width:70.0%" alt="Создание ключа RSA" />
+<figcaption aria-hidden="true">Создание ключа RSA</figcaption>
+</figure>
+<h1 id="теперь-создадим-ключ-по-алгоритму-ed25519.">Теперь создадим ключ
+по алгоритму ed25519.</h1>
+<figure id="fig:008">
+<img src="image/7.png" style="width:70.0%"
+alt="Создание ключа ed25529." />
+<figcaption aria-hidden="true">Создание ключа ed25529.</figcaption>
+</figure>
+<h1 id="теперь-создадим-ключ-gpg.">Теперь создадим ключ gpg.</h1>
+<figure id="fig:009">
+<img src="image/8.png" style="width:70.0%"
+alt="Создание pgp ключа (1)" />
+<figcaption aria-hidden="true">Создание pgp ключа (1)</figcaption>
+</figure>
+<h1 id="вводим-имя-и-адрес-электронной-почты.">Вводим имя и адрес
+электронной почты.</h1>
+<figure id="fig:010">
+<img src="image/9.png" style="width:70.0%"
+alt="Создание pgp ключа (2)" />
+<figcaption aria-hidden="true">Создание pgp ключа (2)</figcaption>
+</figure>
+<h1 id="далее-выводим-список-pgp-ключей-.">Далее, выводим список pgp
+ключей .</h1>
+<figure id="fig:011">
+<img src="image/10.png" style="width:70.0%" alt="Список pgp ключей." />
+<figcaption aria-hidden="true">Список pgp ключей.</figcaption>
+</figure>
+<h1 id="копируем-наш-ключ-в-буфер-обмена">Копируем наш ключ в буфер
+обмена</h1>
+<figure id="fig:012">
+<img src="image/11.png" style="width:70.0%" alt="Копирование ключа." />
+<figcaption aria-hidden="true">Копирование ключа.</figcaption>
+</figure>
+<h1
+id="вставляем-этот-ключ-на-гитхаб-и-задаём-ему-имя.-я-выбрала-имя-sway.">Вставляем
+этот ключ на гитхаб, и задаём ему имя. Я выбрала имя Sway.</h1>
+<figure id="fig:013">
+<img src="image/12.png" style="width:70.0%"
+alt="Вставка ключа в GitHub" />
+<figcaption aria-hidden="true">Вставка ключа в GitHub</figcaption>
+</figure>
+<h1 id="теперь-производим-настройку-автоматических-подписей">Теперь
+производим настройку автоматических подписей</h1>
+<figure id="fig:014">
+<img src="image/13.png" style="width:70.0%"
+alt="Настройка автоматических подписей коммитов git." />
+<figcaption aria-hidden="true">Настройка автоматических подписей
+коммитов git.</figcaption>
+</figure>
+<h1 id="после-нам-нужно-авторизоваться-в-github-с-помощью-gh.">После,
+нам нужно авторизоваться в github с помощью gh.</h1>
+<figure id="fig:015">
+<img src="image/14.png" style="width:70.0%" alt="Авторизация в gh." />
+<figcaption aria-hidden="true">Авторизация в gh.</figcaption>
+</figure>
+<h1
+id="теперь-создаём-рабочую-директорию-курса-и-переходим-в-неё">Теперь
+создаём рабочую директорию курса и переходим в неё</h1>
+<figure id="fig:016">
+<img src="image/15.png" style="width:70.0%"
+alt="Создание рабочей директории и переход в неё." />
+<figcaption aria-hidden="true">Создание рабочей директории и переход в
+неё.</figcaption>
+</figure>
+<h1
+id="далее-создаём-репозиторий-для-лабораторных-работ-из-шаблона.">Далее,
+создаём репозиторий для лабораторных работ из шаблона.</h1>
+<figure id="fig:017">
+<img src="image/16.png" style="width:70.0%"
+alt="Создание репозитория курса." />
+<figcaption aria-hidden="true">Создание репозитория курса.</figcaption>
+</figure>
+<h1 id="и-клонируем-его-к-себе-на-компьютер">И клонируем его к себе на
+компьютер</h1>
+<figure id="fig:018">
+<img src="image/17.png" style="width:70.0%"
+alt="Клонирование репозитория ." />
+<figcaption aria-hidden="true">Клонирование репозитория .</figcaption>
+</figure>
+<h1
+id="переходим-в-него-с-помощью-cd-и-удаляем-ненужные-файлы-package.json-и-создаём-необходимые-каталоги">Переходим
+в него с помощью cd и удаляем ненужные файлы (package.json) и создаём
+необходимые каталоги</h1>
+<figure id="fig:019">
+<img src="image/18.png" style="width:70.0%"
+alt="Удаление ненужных файлов и использование make." />
+<figcaption aria-hidden="true">Удаление ненужных файлов и использование
+make.</figcaption>
+</figure>
+<h1 id="теперь-добавляем-нашу-папку-для-отправки-.">Теперь добавляем
+нашу папку для отправки .</h1>
+<figure id="fig:020">
+<img src="image/19.png" style="width:70.0%"
+alt="Использование git add." />
+<figcaption aria-hidden="true">Использование git add.</figcaption>
+</figure>
+<h1
+id="делаем-коммит-в-котором-указываем-что-мы-сделали-структуру-курса.">Делаем
+коммит ,в котором указываем , что мы сделали структуру курса.</h1>
+<figure id="fig:021">
+<img src="image/20.png" style="width:70.0%"
+alt="Использование git commit" />
+<figcaption aria-hidden="true">Использование git commit</figcaption>
+</figure>
+<h1 id="и-отправляем-файлы-на-сервер-github-с-помощью-команды-push">И
+отправляем файлы на сервер GitHub с помощью команды push</h1>
+<figure id="fig:022">
+<img src="image/21.png" style="width:70.0%"
+alt="Использование git push" />
+<figcaption aria-hidden="true">Использование git push</figcaption>
+</figure>
+<h1 id="выводы">Выводы</h1>
+<p>Была произведена установка git , проведена его первоначальная
+настройка, были созданы ключи для авторизации и подписи ,а также создан
+репозиторий курса из предложенного шаблона .</p>
+<p>:::</p>

@@ -1,0 +1,264 @@
+<h1 id="информация">Информация</h1>
+<h2 id="докладчик">Докладчик</h2>
+<div class="columns" data-align="center">
+<div class="column" style="width:70%;">
+<ul>
+<li>Саенко Ангелина Андреевна</li>
+<li>Студент</li>
+<li>Российский университет дружбы народов</li>
+</ul>
+</div><div class="column" style="width:30%;">
+
+</div>
+</div>
+<h1 id="вводная-часть">Вводная часть</h1>
+<h2 id="актуальность">Актуальность</h2>
+<p>Изучение установки и настройки операционных систем на виртуальных
+машинах актуально для освоения современных технологий виртуализации и
+администрирования ОС.</p>
+<h2 id="объект-и-предмет-исследования">Объект и предмет
+исследования</h2>
+<ul>
+<li>Объект исследования: виртуальная машина.<br />
+</li>
+<li>Предмет исследования: процесс установки и настройки операционной
+системы.</li>
+</ul>
+<h2 id="цели-и-задачи">Цели и задачи</h2>
+<ul>
+<li>Цель: Приобрести практические навыки установки и настройки ОС на
+виртуальной машине.<br />
+</li>
+<li>Задачи:
+<ol type="1">
+<li>Установить и настроить ОС.<br />
+</li>
+<li>Установить ПО для создания документации.</li>
+</ol></li>
+</ul>
+<h2 id="материалы-и-методы">Материалы и методы</h2>
+<ul>
+<li>Материалы: Виртуальная машина, образ ОС, ПО (Pandoc, TeXlive).<br />
+</li>
+<li>Методы: Установка и настройка ОС, анализ загрузки системы с помощью
+команды dmesg.</li>
+</ul>
+<h1 id="создание-презентации">Создание презентации</h1>
+<h2
+id="для-начала-откроем-виртуальную-машину-и-настроим-её-рис.--fig001.">Для
+начала откроем виртуальную машину и настроим её (рис. <span
+class="citation" data-cites="fig:001">[-@fig:001]</span>).</h2>
+<figure id="fig:001">
+<img src="image/1.png" style="width:70.0%"
+alt="Открытие виртуальной машины" />
+<figcaption aria-hidden="true">Открытие виртуальной машины</figcaption>
+</figure>
+<h2 id="дадим-имя-для-новой-машины-и-выберем-образ-iso">Дадим имя для
+новой машины и выберем образ iso</h2>
+<figure id="fig:002">
+<img src="image/2.png" style="width:70.0%" alt="Настройка" />
+<figcaption aria-hidden="true">Настройка</figcaption>
+</figure>
+<h2 id="выбираем-диск-для-установки">Выбираем диск для установки</h2>
+<figure id="fig:003">
+<img src="image/3.png" style="width:70.0%" alt="Выбор диска" />
+<figcaption aria-hidden="true">Выбор диска</figcaption>
+</figure>
+<h2 id="установливаем-имя-и-пароль-для-пользователя-root.">Установливаем
+имя и пароль для пользователя root.</h2>
+<figure id="fig:004">
+<img src="image/4.png" style="width:70.0%" alt="root" />
+<figcaption aria-hidden="true">root</figcaption>
+</figure>
+<h2
+id="устанавливаем-имя-и-пароль-для-вашего-пользователя.">Устанавливаем
+имя и пароль для Вашего пользователя.</h2>
+<figure id="fig:005">
+<img src="image/5.png" style="width:70.0%" alt="Мой пользователь" />
+<figcaption aria-hidden="true">Мой пользователь</figcaption>
+</figure>
+<h2
+id="после-завершения-установки-операционной-системы-корректно-перезапускаем-виртуальную-машину.">После
+завершения установки операционной системы корректно перезапускаем
+виртуальную машину.</h2>
+<figure id="fig:006">
+<img src="image/6.png" style="width:70.0%" alt="Перезапускаем машину" />
+<figcaption aria-hidden="true">Перезапускаем машину</figcaption>
+</figure>
+<h2 id="отключаем-носитель-информации-с-образом.">Отключаем носитель
+информации с образом.</h2>
+<figure id="fig:007">
+<img src="image/7.png" style="width:70.0%" alt="Изъятие диска" />
+<figcaption aria-hidden="true">Изъятие диска</figcaption>
+</figure>
+<h2 id="входим-в-ос-под-заданной-при-установке-учётной-записью.">Входим
+в ОС под заданной при установке учётной записью.</h2>
+<figure id="fig:008">
+<img src="image/8.png" style="width:70.0%" alt="Вход" />
+<figcaption aria-hidden="true">Вход</figcaption>
+</figure>
+<h2 id="переключаемся-на-роль-супер-пользователя.">Переключаемся на роль
+супер-пользователя.</h2>
+<figure id="fig:009">
+<img src="image/9.png" style="width:70.0%" alt="Супер-пользователь" />
+<figcaption aria-hidden="true">Супер-пользователь</figcaption>
+</figure>
+<h2 id="далее-нам-необходимо-установить-средства-разработки">Далее нам
+необходимо установить средства разработки</h2>
+<figure id="fig:010">
+<img src="image/10.png" style="width:70.0%"
+alt="Установка средст разработки" />
+<figcaption aria-hidden="true">Установка средст разработки</figcaption>
+</figure>
+<h2 id="теперь-выполняем-обновление-всех-пакетов">Теперь выполняем
+обновление всех пакетов</h2>
+<figure id="fig:011">
+<img src="image/11.png" style="width:70.0%"
+alt="Обновление всех пакетов" />
+<figcaption aria-hidden="true">Обновление всех пакетов</figcaption>
+</figure>
+<h2
+id="устанавливаем-программы-для-удобства-работы-в-консоли">Устанавливаем
+программы для удобства работы в консоли</h2>
+<figure id="fig:012">
+<img src="image/12.png" style="width:70.0%" alt="Установка программ" />
+<figcaption aria-hidden="true">Установка программ</figcaption>
+</figure>
+<h2
+id="используем-автоматическое-обновление-и-устанавливаем-программное-обеспеччение">Используем
+автоматическое обновление и устанавливаем программное обеспеччение</h2>
+<figure id="fig:013">
+<img src="image/13.png" style="width:70.0%" alt="Установка ПО" />
+<figcaption aria-hidden="true">Установка ПО</figcaption>
+</figure>
+<h2 id="запускаем-таймер">Запускаем таймер</h2>
+<figure id="fig:014">
+<img src="image/14.png" style="width:70.0%" alt="Запуск таймера" />
+<figcaption aria-hidden="true">Запуск таймера</figcaption>
+</figure>
+<h2
+id="в-данном-курсе-мы-не-будем-рассматривать-работу-с-системой-безопасности-selinux-поэтому-отключим-его.-в-файле-etcselinuxconfig-заменим-значение-selinuxenforcing-на-значение-selinuxpermissive">В
+данном курсе мы не будем рассматривать работу с системой безопасности
+SELinux ,поэтому отключим его. В файле /etc/selinux/config заменим
+значение SELINUX=enforcing на значение SELINUX=permissive</h2>
+<figure id="fig:015">
+<img src="image/15.png" style="width:70.0%"
+alt="Замена значений в файле" />
+<figcaption aria-hidden="true">Замена значений в файле</figcaption>
+</figure>
+<h2
+id="переключимся-на-роль-супер-пользователя-с-помощью-sudo--i-и-отредактируем-конфигурационный-файл-etcx11xorg.conf.d00-keyboard.conf">Переключимся
+на роль супер-пользователя с помощью sudo -i и отредактируем
+конфигурационный файл /etc/X11/xorg.conf.d/00-keyboard.conf</h2>
+<figure id="fig:016">
+<img src="image/16.png" style="width:70.0%"
+alt="Редактирование файла и перезагрузка машины" />
+<figcaption aria-hidden="true">Редактирование файла и перезагрузка
+машины</figcaption>
+</figure>
+<h2 id="запустим-терминальный-мультиплексор-tmux">Запустим терминальный
+мультиплексор tmux</h2>
+<figure id="fig:017">
+<img src="image/17.png" style="width:70.0%"
+alt="Запуск мультиплексора" />
+<figcaption aria-hidden="true">Запуск мультиплексора</figcaption>
+</figure>
+<h2
+id="создадим-конфигурационный-файл-.configswayconfig.d95-system-keyboard-config.conf">Создадим
+конфигурационный файл
+~/.config/sway/config.d/95-system-keyboard-config.conf</h2>
+<figure id="fig:018">
+<img src="image/18.png" style="width:70.0%" alt="Создание файла" />
+<figcaption aria-hidden="true">Создание файла</figcaption>
+</figure>
+<h2
+id="отредактируем-конфигурационный-файл-.configswayconfig.d95-system-keyboard-config.conf">Отредактируем
+конфигурационный файл
+~/.config/sway/config.d/95-system-keyboard-config.conf</h2>
+<figure id="fig:019">
+<img src="image/19.png" style="width:70.0%"
+alt="Редактирование файла" />
+<figcaption aria-hidden="true">Редактирование файла</figcaption>
+</figure>
+<h2
+id="переключимся-на-роль-супер-пользователя-с-помощью-команды-sudo--i">Переключимся
+на роль супер-пользователя с помощью команды sudo -i</h2>
+<figure id="fig:020">
+<img src="image/20.png" style="width:70.0%"
+alt="Переключимся на роль супер-пользователя" />
+<figcaption aria-hidden="true">Переключимся на роль
+супер-пользователя</figcaption>
+</figure>
+<h2
+id="отредактируем-конфигурационный-файл-etcx11xorg.conf.d00-keyboard.conf">Отредактируем
+конфигурационный файл /etc/X11/xorg.conf.d/00-keyboard.conf</h2>
+<figure id="fig:021">
+<img src="image/21.png" style="width:70.0%"
+alt="Редактируем файл по образцу" />
+<figcaption aria-hidden="true">Редактируем файл по образцу</figcaption>
+</figure>
+<h2
+id="установим-имя-хоста-и-проверим-что-всё-установилось-верно">Установим
+имя хоста и проверим что всё установилось верно</h2>
+<figure id="fig:022">
+<img src="image/22.png" style="width:70.0%"
+alt="Установка имени хоста" />
+<figcaption aria-hidden="true">Установка имени хоста</figcaption>
+</figure>
+<h2
+id="переключимся-на-роль-супер-пользователя-с-помощью-команды-sudo--i-1">Переключимся
+на роль супер-пользователя с помощью команды sudo -i</h2>
+<figure id="fig:023">
+<img src="image/23.png" style="width:70.0%"
+alt="Переключимся на роль супер-пользователя" />
+<figcaption aria-hidden="true">Переключимся на роль
+супер-пользователя</figcaption>
+</figure>
+<h2 id="установим-с-помощью-менеджера-пакетов-средство-pandoc">Установим
+с помощью менеджера пакетов средство pandoc</h2>
+<figure id="fig:024">
+<img src="image/24.png" style="width:70.0%" alt="Установка pandoc" />
+<figcaption aria-hidden="true">Установка pandoc</figcaption>
+</figure>
+<h2
+id="пакет-pandoc-crossref-в-стандартном-репозитории-отсутствует.-придётся-ставить-вручнуюскачав-с-сайта">Пакет
+pandoc-crossref в стандартном репозитории отсутствует. Придётся ставить
+вручную,скачав с сайта</h2>
+<figure id="fig:025">
+<img src="image/25.png" style="width:70.0%"
+alt="Скачивание pandoc-crossref" />
+<figcaption aria-hidden="true">Скачивание pandoc-crossref</figcaption>
+</figure>
+<h2 id="проверим-верно-ли-всё-установилось">Проверим верно ли всё
+установилось</h2>
+<figure id="fig:026">
+<img src="image/26.png" style="width:70.0%" alt="Проверка" />
+<figcaption aria-hidden="true">Проверка</figcaption>
+</figure>
+<h2 id="установим-дистрибутив-texlive">Установим дистрибутив
+TeXlive</h2>
+<figure id="fig:027">
+<img src="image/27.png" style="width:70.0%" alt="Установка TeXlive" />
+<figcaption aria-hidden="true">Установка TeXlive</figcaption>
+</figure>
+<h2 id="выполнение-домашнего-задания">Выполнение домашнего задания</h2>
+<p>Дождёмся загрузки графического окружения и откроем терминал. В окне
+терминала проанализируем последовательность загрузки системы, выполнив
+команду dmesg.</p>
+<figure id="fig:028">
+<img src="image/28.png" style="width:70.0%"
+alt="Получите следующую информацию." />
+<figcaption aria-hidden="true">Получите следующую
+информацию.</figcaption>
+</figure>
+<h2 id="версия-ядра-linux-linux-version.">Версия ядра Linux (Linux
+version).</h2>
+<p>Частота процессора (Detected Mhz processor). Модель процессора
+(CPU0). Объём доступной оперативной памяти (Memory available). Тип
+обнаруженного гипервизора (Hypervisor detected). Тип файловой системы
+корневого раздела. Последовательность монтирования файловых систем.</p>
+<figure id="fig:029">
+<img src="image/29.png" style="width:70.0%" alt="Вывод" />
+<figcaption aria-hidden="true">Вывод</figcaption>
+</figure>
+<p>:::</p>
